@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/img.png" />
+        <title>Yass's Bistro Menu</title>
+          <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+           max-width: 800px;
+            margin: 20px;
+            padding: 20px;
+            background: url('your-image-url.jpg') no-repeat center center;
+            background-size: cover;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            color: #ffffff;
+            background-blend-mode: overlay;
+        }
+
+        /* Header Styling */
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #343a40;
+        }
+
+        h2 {
+            color: #495057;
+            border-bottom: 2px solid #6c757d;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+
+        /* List Styling */
+        ul.list-group {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .list-group-item a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .list-group-item a:hover {
+            text-decoration: underline;
+        }
+
+        .list-group-item h3 {
+            margin: 0;
+            font-size: 1.25rem;
+            color: #343a40;
+        }
+
+        .list-group-item p {
+            margin: 5px 0 15px 0;
+            color: #6c757d;
+            font-size: 1rem;
+        }
+
+        /* Badge Styling */
+        .badge {
+            font-size: 1rem;
+        }
+
+        /* Del Styling for unavailable items */
+        del {
+            color: #6c757d;
+        }
+
+        /* Padding and Margin Adjustments */
+        .pt-5 {
+            padding-top: 3rem !important;
+        }
+
+        .pb-0 {
+            padding-bottom: 0 !important;
+        }
+
+        .pt-0 {
+            padding-top: 0 !important;
+        }
+    </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'home' %}">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        {% block content %}
+        {% endblock content %}
+
+<!-- JavaScript Bundle with Popper -->
+             <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    </body>
+</html>

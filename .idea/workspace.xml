@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ffe766f4-28ed-4890-9572-564dddd76483" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/restaurant_menu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qr.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/templates/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/templates/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/templates/menu_item_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/restaurant_menu/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2jsOvfOWxsQonAsS8QhgXaIWTqQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.qr.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\YASHASWI SONI\PycharmProjects\restaurant_menu\restaurant_menu" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffe766f4-28ed-4890-9572-564dddd76483" name="Changes" comment="" />
+      <created>1722172549350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722172549350</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
